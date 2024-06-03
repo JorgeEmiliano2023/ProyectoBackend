@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contenedorFormulario{
+    padding: 0 20%;
+    margin-top: 30px;
+}
+
+.formulario{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.formulario div{
+    flex-basis: 40%;
+}
+
+@media screen and (max-width: 768px) {
+    .formulario div {
+      flex-basis: 100%; /* Cambia el ancho a 100% para que los elementos se coloquen uno debajo del otro */
+    }
+  }
+
+.miTitulo{
+    font-weight: bold;
+    color: rgb(0, 90, 194);
+    font-size: 20px;
+}
